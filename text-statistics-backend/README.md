@@ -1,18 +1,13 @@
-# ping-identity-text-analysis
-contains both frontend and backend source code 
+# Text Statistics Backend
 
-
-### text-statistics-backend application
 This application contains an API that handles and process any text file uploaded and returns a result of required text statistic KPI's
 
 # command to start the application
-cd ./text-statistics-backend
 npm install
 npm run start
 
 # commands to test the application features
 # if using systems other than mac, pls ensure to set NODE_ENV=test before running tests
-cd ./text-statistics-backend
 npm run test
 
 
@@ -29,20 +24,3 @@ directly used to process the chunks of buffer one line at a time.
 5. To find most common word and letter, we keep track of the count and finally sort them accordingly.
 6. Error handling middleware is kept common for errors and can be categorized based on types and can be written to the response.
 7. is configured to support files upto 1GB, we can increase this here (file: FileUploadValidator, line number 4: maxFileSizeInBytes)
-
-
-
-### text-statistics-frontend application
-# UI application to upload a text file and see the text statistics results
-this application was created using 'create-react-app' that provides us with the basic setup of react app
-
-# commands to run the application
-cd ./text-statistics-frontend
-npm install
-npm start
-
-# working
-1. this application has only one simple page and an App component rendered at root
-2. It contains a form with a file upload element and a submit button
-3. Once user chooses a file and submits it, we call our server api and show the results 
-4. we handle errors and display the error message in the UI

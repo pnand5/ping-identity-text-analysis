@@ -1,0 +1,29 @@
+Hi Prasanna
+
+Greetings	. Thanks for your time in interviewing with us.
+
+Kindly submit it at the earliest.
+
+Assignment Title: “Text file statistics”
+Objective:
+The objective of this assignment is to create an application capable of uploading a text file and displaying the text statistics. Statistics including:
+1. Number of words in text file.
+2. Number of letters in text file.
+3. Number of symbols in text file.
+4. Top three most common words
+5. Top three most common letters
+Instructions:
+1. Create a new front-end application with the technology of your choice. UI should have an option to upload a text file and view the text statistics.
+2. Set up your backend: Create a new nodejs service. This service will be used to analyze the uploaded file content and return the text statistics.
+3. Error Handling: Implement error handling for API calls (unsupported data formats, file parsing errors).
+4. Unit tests: Unit and integration tets
+5. Documentation: Write a README file explaining how to run your project and the choices you made in your design and implementation.
+Deliverables:
+1. Source code of your server and client projects.
+2. A README file with instructions on how to run your application and an explanation of your design choices.
+Evaluation Criteria:
+1. Functionality: Does the application work as expected?
+2. Code Quality: Is the code well-structured and easy to understand?
+3. Error Handling
+4. Test cases
+5. Documentation: Is the README file clear and does it explain the project well?

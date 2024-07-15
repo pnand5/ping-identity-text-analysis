@@ -1,0 +1,21 @@
+{
+  "name": "text-statistics-backend",
+  "version": "1.0.0",
+  "description": "API handlers for text file upload",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "NODE_ENV=test jest --runInBand --forceExit fileUpload.test.js"
+  },
+  "author": "prasanna.nandalal490@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}

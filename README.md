@@ -2,21 +2,21 @@
 contains both frontend and backend source code 
 
 
-### text-statistics-backend application
-This application contains an API that handles and process any text file uploaded and returns a result of required text statistic KPI's
+# text-statistics-backend
+This application contains an API that processes an uploaded text file and returns the required text statistic KPI's
 
 # command to start the application
-cd ./text-statistics-backend
-npm install
-npm run start
+cd ./text-statistics-backend <br/>
+npm install <br/>
+npm run start <br/>
 
 # commands to test the application features
-# if using systems other than mac, pls ensure to set NODE_ENV=test before running tests
-cd ./text-statistics-backend
-npm run test
+if using systems other than mac, pls ensure to set NODE_ENV=test before running tests <br/>
+cd ./text-statistics-backend<br/>
+npm run test<br/>
 
 
-# design choices
+# Design choices
 1. this nodejs application is enabled to start as a cluster to take advantage of all available cores in the running system
 2. when a file is uploaded, it is not stored anywhere either in disk or in memory as entire file content buffer, rather the read stream of the file is
 directly used to process the chunks of buffer one line at a time. 
@@ -32,14 +32,13 @@ directly used to process the chunks of buffer one line at a time.
 
 
 
-### text-statistics-frontend application
-# UI application to upload a text file and see the text statistics results
-this application was created using 'create-react-app' that provides us with the basic setup of react app
+# text-statistics-frontend
+UI application to upload a text file and see the text statistics results
 
-# commands to run the application
-cd ./text-statistics-frontend
-npm install
-npm start
+# command to start the application
+cd ./text-statistics-frontend <br/>
+npm install<br/>
+npm start<br/>
 
 # working
 1. this application has only one simple page and an App component rendered at root
